@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="Encoding" addBOMForNewFiles="with NO BOM" />
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://G:/program_resource/ruanmou/javavip03_48_20190115(dubbo的实例演示和RPC通过过程详解)/vip-rpc-parent" charset="UTF-8" />
+    <file url="file://G:/program_resource/ruanmou/javavip03_48_20190115(dubbo的实例演示和RPC通过过程详解)/vip-rpc-parent/rpc-client" charset="UTF-8" />
+    <file url="file://G:/program_resource/ruanmou/javavip03_48_20190115(dubbo的实例演示和RPC通过过程详解)/vip-rpc-parent/rpc-server" charset="UTF-8" />
+    <file url="file://G:/program_resource/ruanmou/javavip03_48_20190115(dubbo的实例演示和RPC通过过程详解)/vip-rpc-parent/user-service-api" charset="UTF-8" />
+  </component>
 </project>

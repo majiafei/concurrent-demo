@@ -1,5 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="G:/program_resource/ruanmou/javavip03_48_20190115(dubbo的实例演示和RPC通过过程详解)/vip-rpc-parent/pom.xml" />
+        <option value="$PROJECT_DIR$/../../01_1/dubbo-parent/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/../../01_1/dubbo-parent/dubbo-client/pom.xml" />
+        <option value="$PROJECT_DIR$/../../01_1/dubbo-parent/dubbo-consumer/pom.xml" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
