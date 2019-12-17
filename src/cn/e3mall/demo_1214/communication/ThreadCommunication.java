@@ -1,6 +1,7 @@
 package cn.e3mall.demo_1214.communication;
 
 import java.util.LinkedList;
+import java.util.concurrent.CountDownLatch;
 
 /**
  * 线程通信
@@ -52,7 +53,7 @@ public class ThreadCommunication {
 
         @Override
         public void run() {
-            for (int i = 0; i < 20; i++) {
+            for (int i = 0; i < 50; i++) {
                 threadCommunication.add(i);
             }
         }
