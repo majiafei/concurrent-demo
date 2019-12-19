@@ -1,8 +1,10 @@
 package cn.e3mall.demo_1214.container;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.UUID;
+import java.util.concurrent.LinkedBlockingDeque;
 
 /**
  * <p>
