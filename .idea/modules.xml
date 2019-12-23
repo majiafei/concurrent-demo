@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../../01_1/dubbo-parent/client-demo/client-demo.iml" filepath="$PROJECT_DIR$/../../01_1/dubbo-parent/client-demo/client-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../01_1/dubbo-parent/dubbo-api/dubbo-api.iml" filepath="$PROJECT_DIR$/../../01_1/dubbo-parent/dubbo-api/dubbo-api.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../01_1/dubbo-parent/dubbo-parent.iml" filepath="$PROJECT_DIR$/../../01_1/dubbo-parent/dubbo-parent.iml" />
-      <module fileurl="file://$PROJECT_DIR$/../../01_1/dubbo-parent/dubbo-provider/dubbo-provider.iml" filepath="$PROJECT_DIR$/../../01_1/dubbo-parent/dubbo-provider/dubbo-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/java-container.iml" filepath="$PROJECT_DIR$/java-container.iml" />
-      <module fileurl="file://G:/program_resource/ruanmou/javavip03_48_20190115(dubbo的实例演示和RPC通过过程详解)/vip-rpc-parent/rpc-client/rpc-client.iml" filepath="G:/program_resource/ruanmou/javavip03_48_20190115(dubbo的实例演示和RPC通过过程详解)/vip-rpc-parent/rpc-client/rpc-client.iml" />
-      <module fileurl="file://G:/program_resource/ruanmou/javavip03_48_20190115(dubbo的实例演示和RPC通过过程详解)/vip-rpc-parent/rpc-server/rpc-server.iml" filepath="G:/program_resource/ruanmou/javavip03_48_20190115(dubbo的实例演示和RPC通过过程详解)/vip-rpc-parent/rpc-server/rpc-server.iml" />
-      <module fileurl="file://G:/program_resource/ruanmou/javavip03_48_20190115(dubbo的实例演示和RPC通过过程详解)/vip-rpc-parent/user-service-api/user-service-api.iml" filepath="G:/program_resource/ruanmou/javavip03_48_20190115(dubbo的实例演示和RPC通过过程详解)/vip-rpc-parent/user-service-api/user-service-api.iml" />
-      <module fileurl="file://G:/program_resource/ruanmou/javavip03_48_20190115(dubbo的实例演示和RPC通过过程详解)/vip-rpc-parent/vip-rpc-parent.iml" filepath="G:/program_resource/ruanmou/javavip03_48_20190115(dubbo的实例演示和RPC通过过程详解)/vip-rpc-parent/vip-rpc-parent.iml" />
     </modules>
   </component>
 </project>
