@@ -1,5 +1,7 @@
 package cn.e3mall.demo_1214.threadpool;
 
+import org.omg.SendingContext.RunTime;
+
 import java.sql.Time;
 import java.util.concurrent.*;
 
@@ -34,8 +36,10 @@ public class JdkThreadPollTest {
        ThreadPoolExecutor.DiscardPolicy() 抛弃当前的任务
 
        */
-        ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(4, 10, 0,
+/*        ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(4, 10, 0,
                                                                        TimeUnit.MILLISECONDS, new LinkedBlockingDeque<>(20));
+        threadPoolExecutor.shutdown();*/
+        System.out.println(Runtime.getRuntime().availableProcessors());
     }
 
 }
