@@ -7,6 +7,10 @@ package cn.e3mall.demo_1214.communication;
  * @Description:
  */
 public class WaitNotifyTest {
+    /**
+     * 多线程之间需要等待协调，才能完成某种工作，问怎么设计这种协调方案？
+     * 如：子线程循环10次，接着主线程循环100，接着又回到子线程循环10次，接着再回到主线程又循环100，如此循环50次。
+     */
     private static Object object = new Object();
 
     private static final int num = 100;
