@@ -79,6 +79,13 @@ public class ReadWriteLockTest {
         t3.start();
         t4.start();
 
+//        System.out.println((1 << 16) - 1);
+
+        //  00000000000000001
+        //  01111111111111111 65535 底16位  写锁的状态
+        // 10000000000000000 65536  高16位   读锁的状态
+        System.out.println(65536 >>> 16); // 1
+
     }
 
 }
