@@ -46,7 +46,7 @@ public class ReadWriteLockTest {
     }
 
     public static void main(String[] args) {
-/*        Thread t1 = new Thread(new Runnable() {
+        Thread t1 = new Thread(new Runnable() {
             @Override
             public void run() {
                 read();
@@ -60,10 +60,10 @@ public class ReadWriteLockTest {
         });
 
         t1.start();
-        t2.start();*/
+        t2.start();
 
 
-        Thread t3 = new Thread(new Runnable() {
+/*        Thread t3 = new Thread(new Runnable() {
             @Override
             public void run() {
                 write();
@@ -74,15 +74,16 @@ public class ReadWriteLockTest {
             public void run() {
                 read();
             }
-        });
-
+        });*/
+/*
         t3.start();
-        t4.start();
+        t4.start();*/
 
 //        System.out.println((1 << 16) - 1);
+//        1111111111111111
 
         //  00000000000000001
-        //  01111111111111111 65535 底16位  写锁的状态
+        //  1111111111111111 65535 低16位  写锁的状态
         // 10000000000000000 65536  高16位   读锁的状态
         System.out.println(65536 >>> 16); // 1
 
