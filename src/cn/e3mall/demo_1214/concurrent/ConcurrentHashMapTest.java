@@ -13,6 +13,9 @@ public class ConcurrentHashMapTest {
     public static void main(String[] args) {
         ConcurrentHashMap concurrentHashMap = new ConcurrentHashMap();
         concurrentHashMap.put("3", "0");
+
+        System.out.println(16 >>> 2);
+        System.out.println(0x7fffffff);
     }
 
 }
