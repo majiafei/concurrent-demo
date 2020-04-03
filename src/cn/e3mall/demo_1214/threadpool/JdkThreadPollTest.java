@@ -15,7 +15,7 @@ public class JdkThreadPollTest {
 
     public static void main(String[] args) {
        // ExecutorService executorService = Executors.newSingleThreadExecutor();
-/*        1）如果没有空闲的线程执行该任务且当前运行的线程数少于corePoolSize，则添加新的线程执行该任务。
+/*        （1）如果没有空闲的线程执行该任务且当前运行的线程数少于corePoolSize，则添加新的线程执行该任务。
 
      （2）如果没有空闲的线程执行该任务且当前的线程数等于corePoolSize同时阻塞队列未满，则将任务入队列，而不添加新的线程。
 
@@ -36,9 +36,12 @@ public class JdkThreadPollTest {
        ThreadPoolExecutor.DiscardPolicy() 抛弃当前的任务
 
        */
-/*        ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(4, 10, 0,
+        ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(4, 10, 0,
                                                                        TimeUnit.MILLISECONDS, new LinkedBlockingDeque<>(20));
-        threadPoolExecutor.shutdown();*/
+        threadPoolExecutor.execute(() -> {
+            System.out.println();
+        });
+        threadPoolExecutor.shutdownNow();
         System.out.println(Runtime.getRuntime().availableProcessors());
     }
 

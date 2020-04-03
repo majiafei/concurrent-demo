@@ -1,5 +1,6 @@
 package cn.e3mall.demo_1214.aqs;
 
+import java.util.Objects;
 import java.util.concurrent.*;
 
 /**
@@ -9,9 +10,10 @@ import java.util.concurrent.*;
  * @Description:
  */
 public class CyclicBarrierTest {
+    /*    */
     /**
      * 场景:有三个运动员一起比赛，其中一个准备好了，必须等待其他两个运动员准备好，比赛才能开始
-     */
+     *//*
     private static CyclicBarrier cyclicBarrier = new CyclicBarrier(3);
 
     private static ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(10, 10, 0, TimeUnit.MILLISECONDS,
@@ -49,6 +51,8 @@ public class CyclicBarrierTest {
                 e.printStackTrace();
             }
         }
-    }
+    }*/
+
+
 
 }

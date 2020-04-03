@@ -19,7 +19,7 @@ public class ConcurrentHashMapTest {
 
         System.out.println(16 >>> 2);
         System.out.println(0x7fffffff);
-
+        System.out.println(String.valueOf(null));
 
     }
 
