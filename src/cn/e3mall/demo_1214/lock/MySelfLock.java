@@ -26,7 +26,7 @@ public class MySelfLock {
                     int nextc = currentState + arg;
                     if (nextc < 0) // overflow
                         throw new Error("Maximum lock count exceeded");
-                    setState(nextc);
+                    setState(nextc); // 只可能有一个线程进入这里，就是当前获得锁的线程
                     return true;
                 }
             }
