@@ -7,6 +7,7 @@ import java.util.concurrent.locks.StampedLock;
 import java.util.logging.Logger;
 
 /**
+ * 参照：https://mp.weixin.qq.com/s?__biz=MzIwNjg4MzY4NA==&mid=2247484716&idx=1&sn=ec462e9a5acf82d6ef1fb5859805e58f&chksm=971b9b27a06c1231fc0baf878746f5379047136eec7cb530d3322aee5df5eeaf93c2a131643e&mpshare=1&scene=1&srcid=&sharer_sharetime=1589035388085&sharer_shareid=bb790988e02526a465a6d259669b91ee&key=14ed3836f8067fda8601cf3b5299aeaf65b8f9963115cc2d48f0c3ac92f9383a599f9ca6b3ce98a2f217ed0a2800014fac4e5fb7ddd8e76e76a6f0c84e5e5489a483cc33868736608c2c170b842f79a0&ascene=1&uin=MjQ3MTIzMDUzMA%3D%3D&devicetype=Windows+10&version=62060739&lang=zh_CN&exportkey=Aw74yIQFfTfchYGupcWHq1s%3D&pass_ticket=iG4hkKIdR2ie5D9vl2%2BTGBVga5NPBsrbX0R83HJGWMHtDj3DgAbgSF5M27fdr3Yn
  * 验证悲观读和写锁是互斥的
  * @ClassName: StampedLockTest
  * @Auther: admin
