@@ -1,6 +1,7 @@
 package cn.e3mall.demo_1214.taskframework.processer;
 
-import com.tx.tx_11_29.taskframework.entity.TaskResult;
+
+import cn.e3mall.demo_1214.taskframework.entity.TaskResult;
 
 /**
  * @ClassName: IJobProcesser

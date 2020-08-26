@@ -26,6 +26,11 @@ public class LinkedBlockingQueueTest {
                 System.out.println("================");
             }
         });
+
+       ConcurrentLinkedQueue concurrentLinkedQueue = new ConcurrentLinkedQueue();
+        concurrentLinkedQueue.add("xxx");
+        Object peek = concurrentLinkedQueue.peek();
+        Object poll = concurrentLinkedQueue.poll();
     }
 
 }

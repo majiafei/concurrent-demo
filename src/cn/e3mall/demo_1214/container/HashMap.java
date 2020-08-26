@@ -8,7 +8,7 @@ public class HashMap {
 
     /**
      * 将cap变为2的n次方
-     * @param cap
+     * @par am cap
      */
     static final void tableSizeFor(int cap) {
         int n = cap - 1;

@@ -1,9 +1,6 @@
 package cn.e3mall.demo_1214.container;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.List;
-import java.util.UUID;
+import java.util.*;
 import java.util.concurrent.LinkedBlockingDeque;
 
 /**
@@ -20,7 +17,7 @@ public class ArrayListTest {
     private static List<String> list = new ArrayList<>();
 
     public static void main(String[] args) throws InterruptedException {
-        // 验证arraylist的不安全性
+/*        // 验证arraylist的不安全性
         for (int i = 0; i < 3; i++) {
             new Thread(() -> {
                 list.add(UUID.randomUUID().toString());
@@ -29,7 +26,13 @@ public class ArrayListTest {
 
         Thread.sleep(1000);
 
-        System.out.println(list);
+        System.out.println(list);*/
+
+        List<String> l = list;
+        list.add("xxx");
+
+        System.out.println(l.size());
+
     }
 
 }

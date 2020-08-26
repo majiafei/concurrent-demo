@@ -1,10 +1,10 @@
 package cn.e3mall.demo_1214.taskframework.pool;
 
-import com.tx.tx_11_29.taskframework.entity.JobInfo;
-import com.tx.tx_11_29.taskframework.entity.TaskResult;
-import com.tx.tx_11_29.taskframework.enums.ResultEnum;
-import com.tx.tx_11_29.taskframework.processer.IJobProcesser;
-import org.springframework.stereotype.Component;
+
+import cn.e3mall.demo_1214.taskframework.entity.JobInfo;
+import cn.e3mall.demo_1214.taskframework.entity.TaskResult;
+import cn.e3mall.demo_1214.taskframework.enums.ResultEnum;
+import cn.e3mall.demo_1214.taskframework.processer.IJobProcesser;
 
 import java.util.concurrent.*;
 
@@ -17,7 +17,7 @@ import java.util.concurrent.*;
  * @Date: 2020/1/15 11:06
  * @Description:
  */
-@Component
+//@Component
 public class PendingPool<R, T> {
 
     // 线程的数量
